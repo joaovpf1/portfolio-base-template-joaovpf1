@@ -1,0 +1,25 @@
+.aboutMeSection {
+    width: 100%;
+    height: 9.375rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3.125rem;
+    margin-top: 4.375rem;
+}
+
+.aboutMeSection h1 {
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+}
+
+.aboutMeSection p {
+    max-width: 38.4375rem;
+    max-height: 9.375rem;
+    font-size: 1rem;
+    color: var(--white);
+    font-weight: 400;
+}

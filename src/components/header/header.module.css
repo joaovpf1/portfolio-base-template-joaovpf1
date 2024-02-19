@@ -1,0 +1,50 @@
+.header {
+    width: 100%;
+    max-width: 56.25rem;
+    margin: 1.25rem auto;
+}
+
+.header section {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header section img {
+    width: 4.375rem;
+    height: .875rem;
+}
+
+.header section div {
+    width: 16rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header section div p {
+    font-size: .875rem;
+    font-weight: 600;
+    color: var(--white);
+    line-height: 1.0588rem;
+    cursor: pointer;
+}
+
+.header section button {
+    width: 7.125rem;
+    height: 2.4375rem;
+    color: var(--white);
+    font-size: .875rem;
+    font-weight: 600;
+    background-color: var(--color-brand-1);
+    border: 0;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: var(--color-brand-2);
+}
